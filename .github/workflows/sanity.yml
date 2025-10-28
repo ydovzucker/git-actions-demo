@@ -1,0 +1,12 @@
+name: sanity
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  hi:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "it works"
